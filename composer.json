@@ -13,5 +13,18 @@
             "AGodinez\\FirstPackage\\" : "src/"
         },
         "files": ["src/helpers.php"]
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AGodinez\\FirstPackage\\FirstPackageServiceProvider"
+            ],
+            "aliases": {
+                "FirstPackage":"AGodinez\\FirstPackage\\Facades\\FirstPackage"
+            }
+        }
     }
 }
