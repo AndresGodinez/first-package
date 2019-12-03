@@ -9,6 +9,9 @@
     ],
     "require": {},
     "autoload": {
+        "psr-4": {
+            "AGodinez\\FirstPackage\\" : "src/"
+        },
         "files": ["src/helpers.php"]
     }
 }
