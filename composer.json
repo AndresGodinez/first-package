@@ -1,0 +1,14 @@
+{
+    "name": "agodinez/first-package",
+    "description": "a simple test to generate package",
+    "authors": [
+        {
+            "name": "Andres Godinez",
+            "email": "ing.a.godinez@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"]
+    }
+}
