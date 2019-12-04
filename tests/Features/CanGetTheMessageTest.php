@@ -9,6 +9,7 @@ class CanGetTheMessageTest extends TestCase
     /** @test */
     public function it_visit_the_route_can_get_the_message()
     {
+        $this->withoutExceptionHandling();
         $this->get('hello-route')->assertSuccessful();
     }
 }

@@ -25,7 +25,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AGodinez\\FirstPackage\\FirstPackageServiceProvider"
+                "AGodinez\\FirstPackage\\FirstPackageServiceProvider",
+                "AGodinez\\FirstPackage\\RouteServiceProvider"
             ],
             "aliases": {
                 "FirstPackage":"AGodinez\\FirstPackage\\Facades\\FirstPackage"
